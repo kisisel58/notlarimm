@@ -3,22 +3,22 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 import Head from 'next/head';
 
 const config: DocsThemeConfig = {
-    logo: <span style={{ fontSize: "24px" }}><strong>Feign Game Wiki</strong>DOCS</span>,
+    logo: <span style={{ fontSize: "24px" }}><strong>Feign Game Wiki DAT</strong>DOCS</span>,
     project: {
-        link: 'https://github.com/feignwiki/feign-wiki-docs',
+        link: 'https://github.com/feignwiki/feign-wiki-dat-docs',
     },
     chat: {
         link: 'https://fg-w.ga/discord'
     },
-    docsRepositoryBase: 'https://github.com/feignwiki/feign-wiki.docs',
+    docsRepositoryBase: 'https://github.com/feignwiki/feign-wiki-dat-docs',
     useNextSeoProps() {
         return {
-            titleTemplate: '%s - Feign Wiki DOCS',
+            titleTemplate: '%s - Feign Wiki DAT DOCS',
             openGraph: {
                 type: 'website',
                 locale: 'en_IE',
-                url: 'https://docs.feign-wiki.tk',
-                site_name: 'FeignAPI',
+                url: 'https://dat.docs.feign-wiki.tk',
+                site_name: 'Feign DAT API',
             }
         }
     },
