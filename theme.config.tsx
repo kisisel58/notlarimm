@@ -5,7 +5,7 @@ import Head from 'next/head';
 const config: DocsThemeConfig = {
     logo: <span style={{ fontSize: "24px" }}><strong>Tencere</strong> (Test yapıyoruz) </span>,
     project: {
-        link: 'https://tencere.feign-wiki.tk/,
+        link: 'https://tencere.feign-wiki.tk/',
     },
     chat: {
         link: 'https://tencere.feign-wiki.tk/',
