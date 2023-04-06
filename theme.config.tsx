@@ -10,7 +10,7 @@ const config: DocsThemeConfig = {
     chat: {
         link: 'https://tencere.feign-wiki.tk/',
     },
-    docsRepositoryBase: 'https://github.com/heyturkiye58/tencere,
+    docsRepositoryBase: 'https://github.com/heyturkiye58/tencere',
     useNextSeoProps() {
         return {
             titleTemplate: '%s - Tencere',
