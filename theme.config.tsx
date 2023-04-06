@@ -5,12 +5,12 @@ import Head from 'next/head';
 const config: DocsThemeConfig = {
     logo: <span style={{ fontSize: "24px" }}><strong>Tencere</strong> (Test yapıyoruz) </span>,
     project: {
-        link: 'https://github.com/heyturkiye58/tencere',
+        link: 'https://tencere.feign-wiki.tk/,
     },
     chat: {
         link: 'https://tencere.feign-wiki.tk/',
     },
-    docsRepositoryBase: 'https://github.com/heyturkiye58/tencere',
+    docsRepositoryBase: 'https://tencere.feign-wiki.tk/,
     useNextSeoProps() {
         return {
             titleTemplate: '%s - Tencere',
