@@ -42,7 +42,7 @@ const config: DocsThemeConfig = {
         component: <></>
     },
     i18n: [
-        { locale: 'en', text: 'Tencere tava kuşkana :)' }
+        { locale: 'en', text: 'Tencere' }
     ]
 }
 
