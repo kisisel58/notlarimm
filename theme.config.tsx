@@ -3,22 +3,22 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 import Head from 'next/head';
 
 const config: DocsThemeConfig = {
-    logo: <span style={{ fontSize: "24px" }}><strong>Feign Game Wiki DAT</strong>DOCS</span>,
+    logo: <span style={{ fontSize: "24px" }}><strong>Tencere</strong> (Test yapıyoruz) </span>,
     project: {
-        link: 'https://github.com/feignwiki/feign-wiki-dat-docs',
+        link: 'https://github.com/heyturkiye58/tencere',
     },
     chat: {
-        link: 'https://fg-w.ga/discord'
+        link: 'https://tencere.feign-wiki.tk/',
     },
-    docsRepositoryBase: 'https://github.com/feignwiki/feign-wiki-dat-docs',
+    docsRepositoryBase: 'https://github.com/heyturkiye58/tencere,
     useNextSeoProps() {
         return {
-            titleTemplate: '%s - Feign Wiki DAT DOCS',
+            titleTemplate: '%s - Tencere',
             openGraph: {
                 type: 'website',
                 locale: 'en_IE',
-                url: 'https://dat.docs.feign-wiki.tk',
-                site_name: 'Feign DAT API',
+                url: 'https://tencere.feign-wiki.tk',
+                site_name: 'Tencere',
             }
         }
     },
@@ -42,7 +42,7 @@ const config: DocsThemeConfig = {
         component: <></>
     },
     i18n: [
-        { locale: 'tr', text: 'Türkçe' }
+        { locale: 'en', text: 'Tencere tava kuşkana :)' }
     ]
 }
 
